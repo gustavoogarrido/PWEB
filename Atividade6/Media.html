@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+    <script>
+    var nome = prompt("Digite seu nome: ")
+    var notas = []
+    for(let i = 0; i < 4; i++){
+        notas.push(parseFloat(prompt(`Digite a ${i + 1}° nota: `)))
+    }
+    var media = notas.reduce(function(i, j){return i + j}, 0)
+    alert(`Nome: ${nome}\n\nMedia Aritmética: ${media/4}`)
+    </script>
+   
+</body>
+</html>
