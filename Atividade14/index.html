@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio</title>
+</head>
+<body>
+    Digite o texto: <input type="text" id="texto" placeholder="Digite algo">
+    <input type="radio" id="maius" onclick="document.getElementById('texto').value = document.getElementById('texto').value.toUpperCase(); document.getElementById('minus').checked = false"> Tranformas em Maiúsculas
+    <input type="radio" id="minus" onclick="document.getElementById('texto').value = document.getElementById('texto').value.toLowerCase(); document.getElementById('maius').checked = false"> Tranformar em Minúsculas
+</body>
+</html>
