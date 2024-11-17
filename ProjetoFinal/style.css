@@ -301,7 +301,7 @@ body {
 }
 
 .modal-content .input-field.short-field {
-    width: 80%;
+    width: 90%;
     flex-direction: column;
     display: flex;
 }
