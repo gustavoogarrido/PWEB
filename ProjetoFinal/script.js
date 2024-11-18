@@ -170,9 +170,7 @@ function loadTasks() {
         today.setHours(0, 0, 0, 0);
         taskDate.setHours(0, 0, 0, 0);
         let dateClass = "date-future";
-        if (taskDate.getTime() === today.getTime()) {
-            dateClass = "date-today";
-        } else if (taskDate.getTime() < today.getTime()) {
+        if (taskDate.getTime() < today.getTime()) {
             dateClass = "date-past";
         }
 
